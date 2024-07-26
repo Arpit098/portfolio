@@ -89,13 +89,11 @@ const Whatiknow = ()=>{
                         <h1 className="text-gray-400 px-5  font-mono font-bold text-xl"> DevOps </h1>
                         <div className="w-full py-1"></div>
                         <div className="flex flex-wrap px-5 pt-5 space-x-2">
-                            <p className="bg-zinc-900 text-wrap text-gray-400 text-tiny border-2 font-lighter py-2 px-2 rounded-lg border-blue-900">MySQL</p>
-                            <p className="bg-zinc-900 text-wrap text-gray-400 text-tiny border-2 font-lighter py-2 px-2 rounded-lg border-green-900">MongoDB</p>
-                            <p className=" md:hidden bg-zinc-900 text-wrap text-gray-400 text-tiny border-2 font-lighter  py-2 px-2 rounded-lg border-blue-900">PostgreSQL</p>
+                            <p className="bg-zinc-900 text-wrap text-gray-400 text-tiny border-2 font-lighter py-2 px-2 rounded-lg border-blue-900">AWS Fundamentals</p>
                         </div>
-                        <div className="hidden md:flex flex-row px-5 pt-3 space-x-2">
+                        {/* <div className="hidden md:flex flex-row px-5 pt-3 space-x-2">
                             <p className="bg-zinc-900 text-wrap text-gray-400 text-tiny border-2 font-lighter  py-2 px-2 rounded-lg border-blue-900">PostgreSQL</p>
-                        </div>
+                        </div> */}
                 </div>
             </div>
         </div>

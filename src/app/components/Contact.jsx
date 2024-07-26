@@ -69,7 +69,7 @@ const Contact = ()=>{
                 </div>
             </div>
             <div className="flex flex-col w-full h-full items-center space-y-12">
-                <p className="text-gray-600 lg:pt-20 md:text-4xl text-2xl">arpitagrawal3048<span className='text-blue-900 text-5xl'>@</span>gmail.com</p>
+                <p className="text-gray-600 lg:pt-20 md:text-4xl text-2xl">arpitagrawal3048<span className='text-blue-900 text-5xl'>@</span>outlook.com</p>
                 <div className='flex flex-col space-y-2'>
                    
                     <div className='flex flex-row items-center space-x-2'>
@@ -82,11 +82,14 @@ const Contact = ()=>{
                 <div className='relative flex flex-row  items-center space-x-10'>
                         <div className='cursor-pointer flex flex-row w-full h-full  bg-gray-900 rounded-3xl items-center space-x-3 px-4 py-4'>
                             <MdLocationOn className='text-white text-4xl shadow-2xl' />
-                            <p className='text-transparent bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-lg'> Get my location</p>
+                            <p className='text-transparent bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-lg'> Kharar, Punjab India</p>
                         </div>
-                        <div className='cursor-pointer flex flex-row w-full space-x-3 h-full bg-gray-900 rounded-3xl items-center px-3 py-4'>
-                            <BsFillBookmarkCheckFill className='text-white text-2xl shadow-2xl' />
-                            <label className='text-transparent bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-lg'> Available </label>
+                        <div className='cursor-pointer flex flex-row w-full space-x-3 h-full bg-gray-900 rounded-3xl items-center px-3 py-4' onClick={(e)=>{
+                            e.preventDefault();
+                            window.open("https://api.whatsapp.com/send?phone=9696693934&text=Continue%20to%20contact%20with%20me...");
+                        }}>
+                            <img src="whatsapp.png" className='text-white text-2xl shadow-2xl' />
+                            <a href="https://api.whatsapp.com/send?phone=9696693934&text=Continue%20to%20contact%20with%20me..." className='text-transparent bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-lg'> Text Me </a>
                         </div>
                 </div>
                 <div className='pt-4'>
@@ -120,7 +123,7 @@ const Contact = ()=>{
                                         Collab
                                     </span>
                                     &nbsp; w &nbsp;me?</p>
-                                    <p className='text-zinc-300 text-lg  font-light'>I'm to open to collab with you on your project</p>
+                                    <p className='text-zinc-300 text-lg  font-light'>Open for collaborations and Freelance works.</p>
                                 </div>
                             <Button className=' bg-inherit  font-extralight' onClick={()=>{setCurr(true)}} isIconOnly> <SlArrowRightCircle className='text-zinc-600 text-3xl cursor-pointer hover:text-blue-900'/></Button>
                             </div>

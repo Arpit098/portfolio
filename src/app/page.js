@@ -72,7 +72,7 @@ export default function Home() {
           <Whatiknow /></div>
           <More/>
         </div>
-        <div className='md:flex flex-row md:pt-24 pt-4 lg:space-x-80 items-center'>
+        <div className='md:flex flex-row md:pt-24 pt-4 lg:space-x-80 items-center md:mt-[-100px]'>
         <div className= "w-fit h-full md:px-36 px-8   relative lg:flex md:flex flex-col md:space-y-2 space-y-[1px]">
             <p className='bg-gradient-to-r from-blue-500 to-cyan-500 text-transparent bg-clip-text font-semibold md:text-3xl text-2xl'> <span className="text-white md:text-3xl text-xl">Web </span>3</p>
             <p className="text-gray-700 font-bold pt-1"> My skillset as a Web3 developer.</p>

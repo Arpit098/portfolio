@@ -37,8 +37,8 @@ const Hero = ()=>{
                 className="rounded-full h-full border-4 border-white  w-full  bg-clip-border z-15"/>
             </div>
             <div className=' py-6 flex flex-col items-center justify-center space-y-2 relative w-full'>
-                <a className="cursor-pointer pl-2 text-3xl font-bold font-sans pb-5  z-10">Arpit Agrawal</a>
-                <p className="text-tiny pl-2 hidden text-gray-400">Software Developer | FullStack Developer | Backend Developer </p>
+                <a className="cursor-pointer pl-2 text-3xl font-bold font-sans pb-5  z-10">Arpit Agrawala</a>
+                <p className="text-tiny pl-2 hidden text-gray-400">FullStack Developer | Blockchain Developer </p>
             </div>
         </div>
         </div>
